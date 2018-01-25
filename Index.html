@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML, CSS and JavaScript demo</title>
+	<meta charset="utf-8">
+<link rel="stylesheet" href="custom_modal.css">
+</head>
+<body>
+  <div id="overlay">
+    <div class="popup">
+      <h2>Уважаемые клиенты!</h2>
+      <p>Просим Ваc посетить наш новый сайт</p>
+      <a title="www.kiviniemipark.ru" class="a" href="https://www.kiviniemipark.ru/" onclick="document.getElementById('overlay').style.display='none';"><img src="logo.png" alt="Логотип kiviniemipark.ru"></a>
+      <p><a class="footer" title="www.kiviniemipark.ru" href="https://www.kiviniemipark.ru/nomera/">Подобрать и забронировать подходящий номер</a></p>
+      <button class="close" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';"></button>
+    </div>
+  </div>
+<script>
+	var delayPopup = 3000;
+	setTimeout("document.getElementById('overlay').style.display='block'", delayPopup);
+</script>
+</body>
+</html>
