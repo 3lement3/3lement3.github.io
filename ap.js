@@ -18,7 +18,7 @@ function getReset() {
 
 
 function updateInfo(data) {
-    name.innerText = ('Characters:') + ' ' + data.name
+    name.innerText = 'Characters:' + ' ' + data.name
 }
 
 button.addEventListener('click', getInfo)
