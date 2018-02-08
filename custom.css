@@ -1,0 +1,15 @@
+.info-container {
+    background-color: black;
+    color: greenyellow;
+    height: 200px;
+    width: 50%;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 20px ;
+}
+
+.cntr {
+    margin-top: 10px;
+    text-align: center;
+}
+
